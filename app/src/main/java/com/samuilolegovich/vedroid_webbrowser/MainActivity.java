@@ -10,6 +10,8 @@ import android.webkit.WebViewClient;
 public class MainActivity extends AppCompatActivity {
     private WebView webView;
 
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -25,7 +27,6 @@ public class MainActivity extends AppCompatActivity {
         // для доступа приложения к интернету надо указать в манифесте -->
         //     <uses-permission android:name="android.permission.INTERNET"></uses-permission>
     }
-
 
     // при нажатии на кнопку назад будем возвращаться назад
     @Override
